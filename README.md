@@ -21,3 +21,9 @@
    и рисование прямоугольника поверх изображения с помощью Graphics2D и добавление
    его в s3 с потсфиксом наименования обнаруженного объекта.
 ***
+## Kubernetes
+### Files to deploy
+      lab 1/service.yaml
+      lab 1/deployment.yaml
+      lab 1/Dockerfile
+***
