@@ -1,5 +1,11 @@
 # VK-cloud
 ***
+## Description
+* ### lab 1
+   Серверная часть приложения (Spring Boot)
+* ### lab 2
+   Клиентская часть приложения (React)
+***
 ## API
 
 * ### GET /s3/files
