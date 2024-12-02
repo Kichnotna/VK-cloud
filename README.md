@@ -22,8 +22,17 @@
    его в s3 с потсфиксом наименования обнаруженного объекта.
 ***
 ## Kubernetes
-### Files to deploy
-      lab 1/service.yaml
-      lab 1/deployment.yaml
-      lab 1/Dockerfile
+### Files for deploy
+      lab 1/service.yaml                             -- kubernetes deployment
+      lab 1/deployment.yaml                          -- kubernetes service
+      lab 1/Dockerfile                               -- docker image
+### Main commands
+      1. minikube start                              -- запуск minikube
+      2. kubectl apply -f deployment.yaml            -- применение deployment
+      3. kubectl apply -f service.yaml               -- применение service
+      4. kubectl get all                             -- получения списка всех ресурсов
+      5. minikube dashboard                          -- запуск графического интерфейса для minikube
+      6. minikube tunnel                             -- запуск tunnel для локальных запросов
+      7. kubectl logs <pod-name>                     -- просмотр логов выбранного пода
+      8. minikube stop                               -- остановка minikube
 ***
